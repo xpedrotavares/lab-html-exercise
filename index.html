@@ -9,12 +9,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div>
             <div>
-                <img src="images/black-heart.png" alt="black heart image">
+                <img class="blackheart" src="images/black-heart.png" alt="black heart image">
                 <span>Nifty Penguin Magic</span>
             </div>
             <nav>
@@ -28,12 +29,15 @@
                 </ul>
             </nav>   
         </div>
-        <div>
-            <img src="images/npm-logo.png" alt="Npm logo">
-            <input type="search" name="search-bar" id="search-bar">
-            <button type="submit">Search</button>
-            <a id="login" href="#">Log In</a>
-            <a id="join" href="#">Join</a>
+        <div class="search-div">
+            <img class="npm-logo" src="images/npm-logo.png" alt="Npm logo">
+            <form class="search-form" action="">
+                <input type="text" name="search" id="search-bar" placeholder="Search Packages">
+                <button id="search-button" type="submit">Search</button>
+
+            </form>
+            <button id="join-button" type="submit"><a id="join" href="#">Join</a></button>
+            <a id="login" href="#">Log in</a>
         </div>
      
     </header>
