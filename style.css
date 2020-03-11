@@ -154,7 +154,33 @@ nav a {
     height: 50px;
     font-weight: bold;
 }
+
+#section-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+#section-2 h2 {
+    background-color: rgba(255,204,53,.4); 
+    font-style: italic;  
+    transform: skew(9deg,0deg);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2em;
+}
+
+#section-2 article{
+    font-size: 14pt;
+    text-align: center;
+    margin-left: 18em ;
+    margin-right: 18em;
+}
+
+
 #section-2 img{
-    width: 50px;
+    width: 250px;
     
 }
