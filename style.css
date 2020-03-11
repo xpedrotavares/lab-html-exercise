@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Poppins';
+  margin: 0;
 }
 
 header > div {
@@ -106,4 +107,54 @@ nav a {
     text-decoration: none;
     color: rgb(82, 82, 82);
     margin-left: 2em;
+}
+
+#section-1 {
+    background-color: rgba(232,217,217,.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+#section-1 h1 {
+    font-size: 5em;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+#section-1 article{
+    font-size: 14pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section-1 div{
+    display: inline-flex;
+}
+
+#see-plans-button{
+    border-radius: 0;
+    box-shadow: 5px 5px 0 rgba(251,59,73,.2);
+    background-color: #FB3B49;
+    color: white;
+    font-size: 14pt;
+    width: 200px;
+    height: 50px;
+    margin-right: 2em;
+
+}
+#join-free-button{
+    border-radius: 0;
+    background-color: white;
+    font-size: 14pt;
+    border: 1pt;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+#section-2 img{
+    width: 50px;
+    
 }
