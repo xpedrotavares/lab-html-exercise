@@ -184,3 +184,33 @@ nav a {
     width: 250px;
     
 }
+
+
+
+#section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10em;
+}
+
+
+#section-3 h3{
+    color: red;
+    margin-left: 0;
+    
+}
+
+#section-3 p{
+    font-size: 10pt;
+    margin-right: 6em;   
+}
+
+#section-3 img{
+    width: 30px;
+}
+
+#section-3 button{
+width: 10em;
+
+}
