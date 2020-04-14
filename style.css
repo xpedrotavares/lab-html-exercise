@@ -48,10 +48,10 @@ nav a {
 
 #search-bar {
     border: none;
-    width: 57em;
+    width: 70.5em;
     height: 40px;
     background-color: rgba(0,0,0,.05);
-    font-size: 12pt;
+    font-size: 10pt;
     background-image: url(images/magnifying-glass.png);
     background-repeat: no-repeat;
     background-position: left center;
@@ -60,6 +60,7 @@ nav a {
     padding-left: 2.5em;
     padding-top: 0;
     padding-bottom: 0;
+    padding-right: 0;
     
     
 }
@@ -69,7 +70,6 @@ nav a {
     
     background: #fb3e44;
     border-radius: 0;
-    padding: initial;
     height: 40px;
     width: 80px;
     color: white;
@@ -81,6 +81,8 @@ nav a {
     font-size: 10pt;
     white-space: normal;
     text-align: center;
+    margin-left: -4px;
+    border: none;
     
     
 }
@@ -143,6 +145,7 @@ nav a {
     width: 200px;
     height: 50px;
     margin-right: 2em;
+    border: none;
 
 }
 #join-free-button{
@@ -222,6 +225,8 @@ nav a {
     flex-direction: column;
     justify-content: space-around;
     padding: 1em;
+    width: 250px;
+    height: 100px;
 }
 /*
 #sec3-div div {
@@ -264,4 +269,5 @@ nav a {
     font-size: 15px;
     margin-top: 5em;
     margin-bottom: 5em;
+    border: none;
 }
